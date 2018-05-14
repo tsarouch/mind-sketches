@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="5FFC5667-6DDC-4D34-AA2D-121D3D098D53">
+    <Notes>
+        <Note ID="1" FontSize="12.0" Position="875.84375,260.613281" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>p-value</String>
+            <ConnectedNoteIDs>9, 14-15</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,7</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="43.882812,42.792969" Width="351.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>FUNDAMENTAL QUESTION
+- Given an observed affect from a data sample, what is the probability seeing this effect just by chance? 
+- Is the effect-under-study of our sample, likely to appear in a large population ? </String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,21</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="4" FontSize="20.0" Position="105.195312,353.085938" Width="235.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Border Weight="3">0.500737 0.500737 0.500737</Border>
+                <Fill>0.0 0.0 1.0</Fill>
+            </Appearance>
+            <String>HYPOTHESIS TESTING</String>
+            <ConnectedNoteIDs>2, 5, 10, 12</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,18</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="5" FontSize="20.0" Position="507.320312,340.546875" Width="206.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Border Weight="3">0.500737 0.500737 0.500737</Border>
+                <Fill>0.0 0.0 1.0</Fill>
+            </Appearance>
+            <String>Fisher Classical
+Hypothesis Testing</String>
+            <ConnectedNoteIDs>4, 9</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,35</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="864.367188,83.171875" Width="79.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>test statistic</String>
+            <ConnectedNoteIDs>9, 19</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,14</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="867.683594,411.902344" Width="99.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Null Hypothesis</String>
+            <ConnectedNoteIDs>9, 18</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,15</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="877.246094,560.167969" Width="86.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>interpretation</String>
+            <ConnectedNoteIDs>9, 16</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,14</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="10" FontSize="20.0" Position="509.210938,501.007812" Width="172.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Border Weight="3">0.500737 0.500737 0.500737</Border>
+                <Fill>0.0 0.0 1.0</Fill>
+            </Appearance>
+            <String>Neyman-Pearson
+Decision Theory</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,30</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="12" FontSize="20.0" Position="515.0,627.0" Width="191.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Border Weight="3">0.500737 0.500737 0.500737</Border>
+                <Fill>0.0 0.0 1.0</Fill>
+            </Appearance>
+            <String>Bayesian Inference</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,18</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="1262.0,132.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>p-hacking
+- p-value depends on choice of t-statistic</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,10</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="1262.0,221.363281" Width="236.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>definition: 
+-probability of seeing the effect-under-study if Null hypothesis is true
+- measure of strength of evidence against Null hypothesis
+- probability of getting the observed value of the test statistic (or a value with even greater evidence against the H0), if the H0 is actually true
+
+=&gt; is more a detective, less a judge</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,10</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="1009.054688,587.460938" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>if p-value low enough effect-under-study is statistically significant</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Italic="Yes">11,4</FormatRange>
+                <FormatRange Bold="Yes">44,25</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="994.480469,404.027344" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>definition: hypothesis that the effect-under-study is not real</String>
+            <ConnectedNoteIDs>7</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,10</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="980.683594,59.371094" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>definition: a statistic to quantify the effect of the effect-under-study
+
+=&gt; choosing test statistic depends on the question we try to answer</String>
+            <ConnectedNoteIDs>6</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,12</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="23" FontSize="20.0" Position="1766.0,130.0" Width="134.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Border Weight="3">0.500737 0.500737 0.500737</Border>
+                <Fill>0.0 0.0 1.0</Fill>
+            </Appearance>
+            <String>Case Studies</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,12</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="322.585938,227.390625" Width="54.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Fill>0.30689 0.30689 0.30689</Fill>
+            </Appearance>
+            <String>Data 
+Sample</String>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="385.4375,227.0" Width="62.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Fill>0.30689 0.30689 0.30689</Fill>
+            </Appearance>
+            <String>observed
+effect</String>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="491.28125,227.0" Width="53.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Fill>0.30689 0.30689 0.30689</Fill>
+            </Appearance>
+            <String>is effect 
+‘real’ ?</String>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="449.78125,245.441406" Width="37.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>=&gt;</String>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="448.539062,229.515625" Width="30.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>H.T.</String>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="371.0,235.0" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String> +</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,2</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="1774.0,206.0" Width="155.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>=&gt; Testing Proportions
+(dice crooked / biased coin)
+=&gt; Difference in Means
+=&gt; Correlation
+=&gt; structure in histogram</String>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="9" Sticky="No" Position="748.511719,359.84375" Width="20.0" Height="20.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+                <Fill>0.500737 0.500737 0.500737</Fill>
+            </Appearance>
+            <ConnectedNoteIDs>1, 5-8</ConnectedNoteIDs>
+        </Shape>
+        <Shape ID="31" Sticky="Yes" Position="313.980469,207.820312" Width="241.0" Height="75.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+    </BackgroundShapes>
+    <AutoFit>1, 6-8, 10, 12, 23, 28, 30, 32-33</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="CD43588F-83E0-47E0-A414-8AD799B7F1AA" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="2B1AD98D-DD79-43FA-BC63-B840A7942596" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="F2711A78-DF82-4A6B-A84F-04814CC96992" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="45DF5593-2E7F-43F6-9975-EAD9463ACC18" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="7048E569-A28E-4641-B29D-0435B2807428" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="2D98B684-93E1-4252-849C-9B2DF34CF6E1" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="CDF6A8BE-2871-4168-9E90-BA2FFC011189" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>

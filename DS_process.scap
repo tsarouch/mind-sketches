@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="70EFC2A9-0B5E-4097-8DE1-1594840AB627">
+    <Notes>
+        <Note ID="151" FontSize="12.0" Position="2723.0,402.0" Width="124.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>k-fold cross validation
+</String>
+            <ConnectedNoteIDs>121</ConnectedNoteIDs>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="1255.0,706.0" Width="223.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>feature selection (wrapper methods)
+score features using pred. model
+improve efficiency by stepwise selection
+(e.g. forward/backward selection)
+(+) best feature score for specific model
+(-) computationaly intensive p vars =&gt; 2^p cases</String>
+            <ConnectedNoteIDs>169</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,36</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="0" FontSize="12.0" Position="2317.0,733.0" Width="105.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Decision Trees</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,14</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="2369.0,800.0" Width="261.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- easy to interpret, 
+- handle categorical features
+- extend to the multiclass classification
+- not require feature scaling
+- capture non-linearities / feature interactions.</String>
+            <ConnectedNoteIDs>0</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="20.0" Position="83.0,360.0" Width="66.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Border Weight="3">0.500737 0.500737 0.500737</Border>
+                <Fill>0.0 0.0 1.0</Fill>
+            </Appearance>
+            <String>DATA</String>
+            <ConnectedNoteIDs>86, 118</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,4</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="2018.0,417.0" Width="175.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>SUPERVISED               y = f(X)
+Main Goals:
+1) Prediction (accuracy)
+f : black box ok
+2) Inference (interpretability)
+how y affected as X changes
+f : black box _not_ ok</String>
+            <ConnectedNoteIDs>88-89, 163</ConnectedNoteIDs>
+            <PointsToNoteIDs>88-89</PointsToNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,26</FormatRange>
+                <FormatRange Italic="Yes">28,2</FormatRange>
+                <FormatRange Bold="Yes">31,1</FormatRange>
+                <FormatRange Italic="Yes">49,10</FormatRange>
+                <FormatRange Italic="Yes">91,9</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="2013.0,178.0" Width="178.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>UNSUPERVISED      X features
+Main Goals:
+1) cluster observations
+2) dimensionality reduction
+3) high-Dim visualisations 
+4) Associations learning</String>
+            <ConnectedNoteIDs>93-94, 163</ConnectedNoteIDs>
+            <PointsToNoteIDs>93-94</PointsToNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,12</FormatRange>
+                <FormatRange Bold="Yes">18,1</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="26.0,28.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>BASIC 6 TYPES OF  QUESTIONS:
+(Roger &amp; Jeff Leek)
+1) Descriptive (summarizer)
+2) Exploratory (patterns/trends)
+3) Inferential
+4) Predictive
+5) Causal 
+6) Mechanistic (usually asks how)</String>
+            <ConnectedNoteIDs>120</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,29</FormatRange>
+                <FormatRange Bold="Yes">48,1</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="1312.0,603.0" Width="166.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Filter Methods
+score features using proxy chi2/pearson
+(+) fast        
+(-) lower pred. performance</String>
+            <ConnectedNoteIDs>169</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,15</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="1659.0,864.0" Width="232.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>curse of dimentionality
+data become sparse very quickly 
+
+- search a penny in 100m/100m2/100m3
+- data should grow exp. with D so we keep statistical significance
+- </String>
+            <ConnectedNoteIDs>165</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,24</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="45" FontSize="12.0" Position="1229.0,837.0" Width="249.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>regularisation (embedded methods)
+- fit and apply constrains to coef/s
+- techniques 
+  1) ridge reg. (shrink some coef-&gt;0)
+  2) lasso (explicity assigns 0 to some  coef =&gt; feature selection =&gt; better interpretability)
+- optimize λ with cross-validation</String>
+            <ConnectedNoteIDs>169</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,33</FormatRange>
+                <FormatRange Italic="Yes">40,3</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="738.0,854.0" Width="119.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>imbalanced datasets
+- smote
+</String>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="112.558594,616.910156" Width="228.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Text Data
+Preprocess:
+- Stopwords (common words - bad for doc matching)
+e.g. the, is, at, which
+- Stemming
+fishing, fished, fisher =&gt; fish
+
+Feature Extraction:
+- Count Vectorizer (bag of words)
+- Hashing Vectorizer (hashing trick)
+- TfIdf Vectorizer
+Tf: counts=&gt;frequency (small/big docs)
+Idf:Penalize weight common words accross all docs</String>
+            <ConnectedNoteIDs>108, 112</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,10</FormatRange>
+                <FormatRange Underline="Yes">10,12</FormatRange>
+                <FormatRange Italic="Yes">24,9</FormatRange>
+                <FormatRange Italic="Yes">76,4</FormatRange>
+                <FormatRange Italic="Yes">82,2</FormatRange>
+                <FormatRange Italic="Yes">86,2</FormatRange>
+                <FormatRange Italic="Yes">90,5</FormatRange>
+                <FormatRange Italic="Yes">98,8</FormatRange>
+                <FormatRange Italic="Yes">107,7</FormatRange>
+                <FormatRange Italic="Yes">116,6</FormatRange>
+                <FormatRange Italic="Yes">124,6</FormatRange>
+                <FormatRange Italic="Yes">134,4</FormatRange>
+                <FormatRange Underline="Yes">140,20</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="3087.0,377.0" Width="259.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>(Multiple) Regression (y=β1Χ+β2Χ+…β0)
+- Accuracy of coef. estimates
+  - standard error 
+  -  t-statistic  / F-statistic(multiple) / p-value
+- Accuracy of model
+  - RSE
+  - R^2 ε[0,1] (proportion of variance explained)
+- Mean absolute/square error</String>
+            <ConnectedNoteIDs>160</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,22</FormatRange>
+                <FormatRange Bold="Yes">23,1</FormatRange>
+                <FormatRange Italic="Yes">25,2</FormatRange>
+                <FormatRange Bold="Yes">27,1</FormatRange>
+                <FormatRange Italic="Yes">29,2</FormatRange>
+                <FormatRange Bold="Yes">31,1</FormatRange>
+                <FormatRange Italic="Yes">34,2</FormatRange>
+                <FormatRange Bold="Yes">37,1</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="52" FontSize="12.0" Position="3089.0,575.0" Width="207.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Classification
+- accuracy - error rate
+- precision 
+- recall
+- f1 score
+- confusion matrix
+- ROC_AUC score
+- f1, f1_micro, f1_macro, f1_weighted</String>
+            <ConnectedNoteIDs>110, 160</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,15</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="3087.0,224.0" Width="205.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Clustering
+- adjusted_mutual_info_score
+- adjusted_rand_score
+- completeness_score
+…</String>
+            <ConnectedNoteIDs>160</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,11</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="55" FontSize="14.0" Position="2694.0,618.0" Width="182.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.0 0.0 0.0</TextColor>
+                <Border Weight="1"></Border>
+                <Fill>1.0 1.0 0.0</Fill>
+            </Appearance>
+            <String>Hyperparameter Tunnings</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,23</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="57" FontSize="20.0" Position="1594.0,358.0" Width="128.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Border Weight="3">0.500737 0.500737 0.500737</Border>
+                <Fill>0.0 0.0 1.0</Fill>
+            </Appearance>
+            <String>MODELLING</String>
+            <ConnectedNoteIDs>114, 117, 127, 163, 165</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,9</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="69" FontSize="12.0" Position="2357.0,368.0" Width="79.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>X: numeric</String>
+            <ConnectedNoteIDs>88, 105, 122, 132</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,1</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="2357.0,436.0" Width="81.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>X: categorical</String>
+            <ConnectedNoteIDs>88, 131, 133-134</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,1</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="76" FontSize="12.0" Position="2482.0,59.0" Width="63.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Clustering</String>
+            <ConnectedNoteIDs>78, 93, 95, 99</ConnectedNoteIDs>
+        </Note>
+        <Note ID="77" FontSize="12.0" Position="2482.0,114.0" Width="87.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Dim Reduction</String>
+            <ConnectedNoteIDs>80, 93, 96</ConnectedNoteIDs>
+        </Note>
+        <Note ID="78" FontSize="12.0" Position="2627.0,25.0" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>K-means</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+        </Note>
+        <Note ID="79" FontSize="12.0" Position="2627.0,87.0" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>SVD</String>
+        </Note>
+        <Note ID="80" FontSize="12.0" Position="2627.0,115.0" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>PCA</String>
+            <ConnectedNoteIDs>77</ConnectedNoteIDs>
+        </Note>
+        <Note ID="81" FontSize="12.0" Position="2482.0,188.0" Width="117.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Association Analysis</String>
+            <ConnectedNoteIDs>82-83, 94</ConnectedNoteIDs>
+        </Note>
+        <Note ID="82" FontSize="12.0" Position="2627.0,171.0" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Apriori</String>
+            <ConnectedNoteIDs>81</ConnectedNoteIDs>
+        </Note>
+        <Note ID="83" FontSize="12.0" Position="2627.0,199.0" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>FP-Growth</String>
+            <ConnectedNoteIDs>81</ConnectedNoteIDs>
+        </Note>
+        <Note ID="84" FontSize="12.0" Position="2482.0,230.0" Width="125.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Hidden Markov Model</String>
+            <ConnectedNoteIDs>94</ConnectedNoteIDs>
+        </Note>
+        <Note ID="86" FontSize="14.0" Position="401.0,355.0" Width="91.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.0 0.0 0.0</TextColor>
+                <Border Weight="1"></Border>
+                <Fill>1.0 1.0 0.0</Fill>
+            </Appearance>
+            <String>Data 
+Exploration</String>
+            <ConnectedNoteIDs>6, 112, 174, 176</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,17</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="87" FontSize="12.0" Position="290.0,84.0" Width="149.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>- Distributions/hist
+- mean/median/quantiles
+- boxplots
+- variance/stand. deviation
+- gini
+- skewness</String>
+            <ConnectedNoteIDs>174</ConnectedNoteIDs>
+        </Note>
+        <Note ID="88" FontSize="12.0" Position="2238.0,393.0" Width="78.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Regression
+y: numeric</String>
+            <ConnectedNoteIDs>30, 69, 73</ConnectedNoteIDs>
+            <PointsToNoteIDs>69, 73</PointsToNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,10</FormatRange>
+                <FormatRange Bold="Yes">11,1</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="89" FontSize="12.0" Position="2233.0,559.0" Width="87.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Classification
+y: categorical</String>
+            <ConnectedNoteIDs>30, 90-91</ConnectedNoteIDs>
+            <PointsToNoteIDs>90-91</PointsToNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,16</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="90" FontSize="12.0" Position="2358.0,530.0" Width="79.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>X: numeric</String>
+            <ConnectedNoteIDs>89, 104, 115-116, 130, 135, 138</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,1</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="91" FontSize="12.0" Position="2358.0,618.0" Width="81.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>X: categorical</String>
+            <ConnectedNoteIDs>89, 136-137</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,1</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="92" FontSize="12.0" Position="2019.0,621.0" Width="196.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>SEMI-SUPERVISED
+Goals: cut costs e.g. data labeling
+n observations
+m labels (e.g. labelling expensive)
+n-m no labels 
+e.g. Google photos (give 1 label/person =&gt;  it assigns photos to contacts</String>
+            <ConnectedNoteIDs>163</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,16</FormatRange>
+                <FormatRange Bold="Yes">51,1</FormatRange>
+                <FormatRange Italic="Yes">52,1</FormatRange>
+                <FormatRange Italic="Yes">67,1</FormatRange>
+                <FormatRange Italic="Yes">103,1</FormatRange>
+                <FormatRange Italic="Yes">105,1</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="93" FontSize="12.0" Position="2352.0,117.0" Width="79.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>X: numeric</String>
+            <ConnectedNoteIDs>31, 76-77</ConnectedNoteIDs>
+            <PointsToNoteIDs>76-77</PointsToNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,1</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="94" FontSize="12.0" Position="2352.0,211.0" Width="81.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>X: categorical</String>
+            <ConnectedNoteIDs>31, 81, 84</ConnectedNoteIDs>
+            <PointsToNoteIDs>81, 84</PointsToNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,1</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="95" FontSize="12.0" Position="2627.0,53.0" Width="143.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Hierarchical Cluster Anal.</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+        </Note>
+        <Note ID="96" FontSize="12.0" Position="2627.0,143.0" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>t-SNE</String>
+            <ConnectedNoteIDs>77</ConnectedNoteIDs>
+        </Note>
+        <Note ID="97" FontSize="12.0" Position="2022.0,833.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>REINFORCEMENT LEARNING
+agent: is the learning system
+rewards: results of its actions 
+policy: the strategy self-learned so to get the most reward over time</String>
+            <ConnectedNoteIDs>98, 163</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,23</FormatRange>
+                <FormatRange Italic="Yes">23,5</FormatRange>
+                <FormatRange Italic="Yes">53,7</FormatRange>
+                <FormatRange Italic="Yes">86,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="98" FontSize="12.0" Position="2048.324219,946.527344" Width="139.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>e.g. DeepMind Alpha Go</String>
+            <ConnectedNoteIDs>97</ConnectedNoteIDs>
+        </Note>
+        <Note ID="99" FontSize="12.0" Position="2325.0,69.0" Width="159.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Segmentation VS Clustering</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+        </Note>
+        <Note ID="100" FontSize="12.0" Position="2700.0,572.0" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>overfitting</String>
+        </Note>
+        <Note ID="103" FontSize="12.0" Position="2924.0,782.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Variance-Bias trade-off
+variance: amount f changes when using different training dataset.
+bias: error by approximating real-life problem
+challenge:Find method keeps variance and squared bias low.</String>
+            <ConnectedNoteIDs>121, 170</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,24</FormatRange>
+                <FormatRange Bold="Yes">24,8</FormatRange>
+                <FormatRange Italic="Yes">41,2</FormatRange>
+                <FormatRange Bold="Yes">90,4</FormatRange>
+                <FormatRange Italic="Yes">105,13</FormatRange>
+                <FormatRange Underline="Yes">137,10</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="104" FontSize="12.0" Position="2488.0,547.0" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>kNN</String>
+            <ConnectedNoteIDs>90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="105" FontSize="12.0" Position="2487.0,382.0" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>kNN</String>
+            <ConnectedNoteIDs>69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="106" FontSize="12.0" Position="3472.0,883.0" Width="97.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Distance Metrics
+euclidian
+manhattan
+minkowski
+….</String>
+        </Note>
+        <Note ID="108" FontSize="12.0" Position="176.558594,888.910156" Width="107.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>sentiment analysis</String>
+            <ConnectedNoteIDs>49, 125</ConnectedNoteIDs>
+        </Note>
+        <Note ID="109" FontSize="12.0" Position="551.0,613.0" Width="121.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Images
+Preprocess
+…
+Feature Extraction
+…</String>
+            <ConnectedNoteIDs>112</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,7</FormatRange>
+                <FormatRange Underline="Yes">7,10</FormatRange>
+                <FormatRange Underline="Yes">18,21</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="110" FontSize="12.0" Position="3338.0,581.0" Width="213.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Classification Baselines
+- Random guess classifier (dummy)
+- Weighted guess classifier
+weights based on classes distributions
+- Majority class classifier (zero rule)
+better for imbalanced datasets
+- kappa statistics</String>
+            <ConnectedNoteIDs>52</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,25</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="112" FontSize="14.0" Position="646.0,355.0" Width="83.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.0 0.0 0.0</TextColor>
+                <Border Weight="1"></Border>
+                <Fill>1.0 1.0 0.0</Fill>
+            </Appearance>
+            <String>Feature Extraction</String>
+            <ConnectedNoteIDs>49, 86, 109, 139-140, 177</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,18</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="114" FontSize="14.0" Position="1139.167969,355.578125" Width="68.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.0 0.0 0.0</TextColor>
+                <Border Weight="1"></Border>
+                <Fill>1.0 1.0 0.0</Fill>
+            </Appearance>
+            <String>Data 
+Cleaning</String>
+            <ConnectedNoteIDs>57, 140, 178</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,14</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="115" FontSize="12.0" Position="2488.0,590.0" Width="76.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Naive Bayes</String>
+            <ConnectedNoteIDs>90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="116" FontSize="12.0" Position="2488.0,516.0" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>SVM</String>
+            <ConnectedNoteIDs>90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="117" FontSize="12.0" Position="1561.0,113.0" Width="185.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Baseline Modelling
+- regression: linear regression
+- classification: logistig reg. / kNN
+  dummy classifiers
+- clustering: k-Means</String>
+            <ConnectedNoteIDs>57</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,19</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="118" FontSize="20.0" Position="61.0,267.0" Width="113.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Border Weight="3">0.500737 0.500737 0.500737</Border>
+                <Fill>0.0 0.0 1.0</Fill>
+            </Appearance>
+            <String>QUESTION</String>
+            <ConnectedNoteIDs>6, 120</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,8</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="120" FontSize="12.0" Position="38.0,156.0" Width="167.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- define the business problem
+- define clearly the question</String>
+            <ConnectedNoteIDs>36, 118</ConnectedNoteIDs>
+        </Note>
+        <Note ID="121" FontSize="20.0" Position="2722.0,359.0" Width="136.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Border Weight="3">0.500737 0.500737 0.500737</Border>
+                <Fill>0.0 0.0 1.0</Fill>
+            </Appearance>
+            <String>EVALUATION</String>
+            <ConnectedNoteIDs>103, 151, 160</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,10</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="122" FontSize="12.0" Position="2487.0,328.0" Width="150.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>linear (multiple) regression</String>
+            <ConnectedNoteIDs>69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="125" FontSize="12.0" Position="155.558594,953.910156" Width="149.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>slang language (SlangSD)</String>
+            <ConnectedNoteIDs>108</ConnectedNoteIDs>
+        </Note>
+        <Note ID="127" FontSize="12.0" Position="1374.0,192.0" Width="187.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>No Free Lunch (NFL) theorem
+no assumption about data
+=&gt;
+no prefer one model over another
+</String>
+            <ConnectedNoteIDs>57</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,28</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="128" FontSize="20.0" Position="1658.0,25.0" Width="315.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>1.0 1.0 1.0</TextColor>
+                <Border Weight="3">0.500737 0.500737 0.500737</Border>
+                <Fill>0.0 0.0 1.0</Fill>
+            </Appearance>
+            <String>MACHINE LEARNING PROCESS</String>
+            <ConnectedNoteIDs>129</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,24</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="129" FontSize="12.0" Position="1451.0,8.0" Width="164.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>ML definition:
+The science (and art) of programming computers so that they learn from data</String>
+            <ConnectedNoteIDs>128</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,14</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="130" FontSize="12.0" Position="2485.0,497.0" Width="161.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String> logistic (multiple) regression</String>
+            <ConnectedNoteIDs>90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="131" FontSize="12.0" Position="2487.0,461.0" Width="156.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>decision (classification) tree</String>
+            <ConnectedNoteIDs>73</ConnectedNoteIDs>
+        </Note>
+        <Note ID="132" FontSize="12.0" Position="2487.0,360.0" Width="77.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>decision tree</String>
+            <ConnectedNoteIDs>69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="133" FontSize="12.0" Position="2487.0,417.0" Width="50.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>ANOVA</String>
+            <ConnectedNoteIDs>73</ConnectedNoteIDs>
+        </Note>
+        <Note ID="134" FontSize="12.0" Position="2487.0,439.0" Width="127.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>dummy var regression</String>
+            <ConnectedNoteIDs>73</ConnectedNoteIDs>
+        </Note>
+        <Note ID="135" FontSize="12.0" Position="2488.0,531.0" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>ANN</String>
+            <ConnectedNoteIDs>90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="136" FontSize="12.0" Position="2488.0,618.0" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>classification tree</String>
+            <ConnectedNoteIDs>91</ConnectedNoteIDs>
+        </Note>
+        <Note ID="137" FontSize="12.0" Position="2488.0,649.0" Width="145.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>chi2 for contingency table</String>
+            <ConnectedNoteIDs>91</ConnectedNoteIDs>
+        </Note>
+        <Note ID="138" FontSize="12.0" Position="2488.0,567.0" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>LDA</String>
+            <ConnectedNoteIDs>90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="139" FontSize="12.0" Position="694.0,613.0" Width="107.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Spacial Data
+Preprocess
+…
+Feature Extraction
+…</String>
+            <ConnectedNoteIDs>112</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,13</FormatRange>
+                <FormatRange Underline="Yes">13,10</FormatRange>
+                <FormatRange Underline="Yes">24,21</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="140" FontSize="14.0" Position="896.984375,354.875" Width="107.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.0 0.0 0.0</TextColor>
+                <Border Weight="1"></Border>
+                <Fill>1.0 1.0 0.0</Fill>
+            </Appearance>
+            <String>Feature Preprocessing</String>
+            <ConnectedNoteIDs>112, 114, 141</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,21</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="141" FontSize="12.0" Position="815.589844,451.324219" Width="269.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>- Binarizing (values to [0,1] using threshold
+- Label Encoding (labels in [1,n] n-classes)
+- One Hot Encoding (features in [1,n])
+- Categorical Encoding (cat. features as num. array)
+- Mix Max Scaling (features scaled to [min,max]
+- Cox-Box or Power Transformations (make gaussian like)
+- Standard Scaling (standardise feature in 0 mean, 1 variance)
+- Normalizing (input vectors to unit norm)</String>
+            <ConnectedNoteIDs>140</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">2,10</FormatRange>
+                <FormatRange Bold="Yes">48,14</FormatRange>
+                <FormatRange Bold="Yes">93,16</FormatRange>
+                <FormatRange Bold="Yes">132,21</FormatRange>
+                <FormatRange Bold="Yes">185,15</FormatRange>
+                <FormatRange Bold="Yes">233,8</FormatRange>
+                <FormatRange Bold="Yes">244,22</FormatRange>
+                <FormatRange Underline="Yes">286,1</FormatRange>
+                <FormatRange Bold="Yes">289,17</FormatRange>
+                <FormatRange Underline="Yes">349,1</FormatRange>
+                <FormatRange Bold="Yes">352,12</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="144" FontSize="12.0" Position="2727.0,423.0" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.607546 0.607546 0.607546</TextColor>
+                <Border Weight="1" Style="Square"></Border>
+                <Fill>0.607546 0.607546 0.607546</Fill>
+            </Appearance>
+            <String>.</String>
+        </Note>
+        <Note ID="146" FontSize="12.0" Position="2748.0,423.0" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.607546 0.607546 0.607546</TextColor>
+                <Border Weight="1" Style="Square"></Border>
+                <Fill>0.607546 0.607546 0.607546</Fill>
+            </Appearance>
+            <String>.</String>
+        </Note>
+        <Note ID="147" FontSize="12.0" Position="2769.0,423.0" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.607546 0.607546 0.607546</TextColor>
+                <Border Weight="1" Style="Square"></Border>
+                <Fill>0.607546 0.607546 0.607546</Fill>
+            </Appearance>
+            <String>.</String>
+        </Note>
+        <Note ID="148" FontSize="12.0" Position="2790.0,423.0" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.902657 0.902657 0.902657</TextColor>
+                <Border Weight="1" Style="Square"></Border>
+                <Fill>0.902657 0.902657 0.902657</Fill>
+            </Appearance>
+            <String>.</String>
+        </Note>
+        <Note ID="149" FontSize="12.0" Position="2810.0,423.0" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.607546 0.607546 0.607546</TextColor>
+                <Border Weight="1" Style="Square"></Border>
+                <Fill>0.607546 0.607546 0.607546</Fill>
+            </Appearance>
+            <String>.</String>
+        </Note>
+        <Note ID="152" FontSize="12.0" Position="2727.0,451.0" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.607546 0.607546 0.607546</TextColor>
+                <Border Weight="1" Style="Square"></Border>
+                <Fill>0.607546 0.607546 0.607546</Fill>
+            </Appearance>
+            <String>.</String>
+        </Note>
+        <Note ID="153" FontSize="12.0" Position="2752.0,451.0" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>train error</String>
+        </Note>
+        <Note ID="154" FontSize="12.0" Position="2727.0,479.0" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.902657 0.902657 0.902657</TextColor>
+                <Border Weight="1" Style="Square"></Border>
+                <Fill>0.902657 0.902657 0.902657</Fill>
+            </Appearance>
+            <String>.</String>
+        </Note>
+        <Note ID="155" FontSize="12.0" Position="2751.0,477.0" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>test error</String>
+        </Note>
+        <Note ID="156" FontSize="12.0" Position="2725.0,502.0" Width="162.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>CV(k) = average test error(k)</String>
+        </Note>
+        <Note ID="165" FontSize="14.0" Position="1597.0,735.0" Width="122.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <TextColor>0.0 0.0 0.0</TextColor>
+                <Border Weight="1"></Border>
+                <Fill>1.0 1.0 0.0</Fill>
+            </Appearance>
+            <String>Model Selection 
+&amp; Regularization</String>
+            <ConnectedNoteIDs>41, 57, 169</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,33</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="170" FontSize="12.0" Position="2700.0,879.0" Width="194.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>reason why ridge regression works
+</String>
+            <ConnectedNoteIDs>103</ConnectedNoteIDs>
+        </Note>
+        <Note ID="171" FontSize="12.0" Position="1334.0,965.0" Width="144.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>dim reduction
+- features -&gt; transformed 
+- techniques
+  o Principal Comp. Anal.
+  o Partial Least Squares </String>
+            <ConnectedNoteIDs>169</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,14</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="174" FontSize="12.0" Position="337.0,269.0" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>univariate</String>
+            <ConnectedNoteIDs>86-87</ConnectedNoteIDs>
+        </Note>
+        <Note ID="175" FontSize="12.0" Position="450.0,84.0" Width="192.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>- scatter plots
+- covariance
+- correlation matrix
+- correlation pearson
+- correlation spearman
+  better for ranking/outliers/skewed
+- q-q plot (check if populations from same distribution)
+- p-p plot
+- causation  find using
+  a) time b) randomized AB test</String>
+            <ConnectedNoteIDs>176</ConnectedNoteIDs>
+        </Note>
+        <Note ID="176" FontSize="12.0" Position="508.0,261.0" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>variable
+relationship</String>
+            <ConnectedNoteIDs>86, 175</ConnectedNoteIDs>
+        </Note>
+        <Note ID="177" FontSize="12.0" Position="353.0,615.0" Width="187.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Temporal Data
+Preprocess
+- decomposition to
+(trend, seasonal, residue)
+Feature Extraction
+…</String>
+            <ConnectedNoteIDs>112</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,14</FormatRange>
+                <FormatRange Underline="Yes">14,11</FormatRange>
+                <FormatRange Underline="Yes">70,20</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="178" FontSize="12.0" Position="1059.761719,90.765625" Width="217.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+            </Appearance>
+            <String>Null values
+- dropna / interpollations
+
+Novelty detection
+(detect anomalies in new observations)
+- One-class SVM
+
+Outlier detection
+(detect anomalies in existing data)
+- isolation forest
+- LOC (local outlier factor) samples with lower density than neighbours.
+- MAD (median abs. deviation) for ts</String>
+            <ConnectedNoteIDs>114</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,12</FormatRange>
+                <FormatRange Bold="Yes">38,20</FormatRange>
+                <FormatRange Bold="Yes">113,19</FormatRange>
+            </Formatting>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="157" Sticky="Yes" Position="2720.0,396.0" Width="168.0" Height="134.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="160" Sticky="No" Position="2861.0,364.0" Width="20.0" Height="20.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+                <Fill>0.500737 0.500737 0.500737</Fill>
+            </Appearance>
+            <ConnectedNoteIDs>51-53, 121</ConnectedNoteIDs>
+            <PointsToNoteIDs>51-53</PointsToNoteIDs>
+        </Shape>
+        <Shape ID="163" Sticky="No" Position="1726.0,363.0" Width="20.0" Height="20.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+                <Fill>0.500737 0.500737 0.500737</Fill>
+            </Appearance>
+            <ConnectedNoteIDs>30-31, 57, 92, 97</ConnectedNoteIDs>
+            <PointsToNoteIDs>30-31, 92, 97</PointsToNoteIDs>
+        </Shape>
+        <Shape ID="169" Sticky="No" Position="1577.0,747.0" Width="20.0" Height="20.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+                <Fill>0.500737 0.500737 0.500737</Fill>
+            </Appearance>
+            <ConnectedNoteIDs>39, 44-45, 165, 171</ConnectedNoteIDs>
+            <PointsToNoteIDs>39, 44-45, 171</PointsToNoteIDs>
+        </Shape>
+    </BackgroundShapes>
+    <Stacks>
+        <Stack>78, 95</Stack>
+        <Stack>79-80, 96, 82-83</Stack>
+        <Stack>115, 136</Stack>
+        <Stack>144, 152, 154</Stack>
+    </Stacks>
+    <AutoFit>30-31, 36, 47, 51-52, 55, 57, 73, 76-84, 87, 89, 91, 94-96, 98-100, 104-106, 108, 110, 114-118, 121-122, 125, 127-128, 130-139, 144, 146-149, 151-156, 170-171, 174, 176</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="BC9E958A-E385-4920-87A8-57FC883BD526" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="6BE00888-4059-404F-A74F-A34194349F5A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="31ED2F5D-2662-462E-A057-5EFE61314BE7" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="16A02A9A-1E55-4123-B70A-749A55E61395" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="8A523B88-AC77-4CA4-A919-FB54D9D445E6" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="E0075D20-F413-41C4-B8C6-17D448DDC126" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="D3B9DB5C-C4D4-4776-9D93-F5B83406AB84" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
